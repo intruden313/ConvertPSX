@@ -1,0 +1,3 @@
+[submodule "tools/PSXPackager"]
+	path = tools/PSXPackager
+	url = https://github.com/RupertAvery/PSXPackager.git
