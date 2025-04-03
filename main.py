@@ -21,6 +21,8 @@ def convert_chd_to_cue(chd_file):
     subprocess.run(f'chdman extractcd -i "{chd_file}" -o "{cue_file}" --force', shell=True)
     print(f"Converted {chd_file} to {cue_file}")
 
+
+# Execute Code
 if __name__ == "__main__":
     rominput = input("Paste Your PSX ROM directory: ")
     rompath = Path(rominput) #Necessary to define the input string as a "Path" variable
