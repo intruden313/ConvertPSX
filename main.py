@@ -1,8 +1,7 @@
 import subprocess
 import os
 
-
-#path = input("Please Provide the folder where your .chd files are")
+path = input("Please Provide the folder where your .chd files are")
 
 
 def convertchdtocue(path,filetype):
