@@ -3,7 +3,7 @@ import platform
 import subprocess
 from pathlib import Path
 
-
+print (f"Testing 123")
 def open_os_file_manager(directory: Path) -> None:
     """Open a folder in the OS file manager. This cannot return a user selection."""
     system = platform.system().casefold()
